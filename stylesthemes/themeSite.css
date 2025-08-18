@@ -1,0 +1,56 @@
+/* FONT SETTINGS */
+
+@font-face {
+    font-family: "FNAF Hungarian Port";
+    src: url("../fonts/fnaffont.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "VCR OSD Mono RUS+VHS icons";
+    src: url("../fonts/VCR\ OSD\ Mono\ RUS+VHS\ icons.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* THEME SETTINGS */
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "VCR OSD Mono RUS+VHS icons";
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: "FNAF Hungarian Port";
+}
+
+.GJButton{
+    background-color: green;
+}
+
+.ItchIoButton{
+    background-color: red;
+}
+
+.DirectDownload{
+    background-color: blue;
+}
+
+
+.footer{
+	background: black;
+	z-index:200;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
