@@ -21,6 +21,7 @@ body{
     color: white;
     text-align: center;
     font-family: "VCR OSD Mono RUS+VHS icons";
+    
     background-size: 100vw auto;
     background-attachment: fixed;
     background-position: center center;
@@ -85,16 +86,6 @@ div.screenshots{
 
 .BTM_arrow{
     vertical-align: middle;
-}
-
-.video-section {
-  z-index: -1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: hidden;
 }
 
 .black-line{
